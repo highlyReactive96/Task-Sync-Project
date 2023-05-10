@@ -1,0 +1,84 @@
+.color-card{
+background-color: rgb(183, 218, 218);
+margin: top 30px;
+}
+
+.page{
+   
+  background-image: url("./newback1.jpg");
+  position:absolute;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+   
+}
+
+
+.page1{
+   
+  background-image: url("./empback.jpg");
+  position:relative;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+   
+}
+
+.page2{
+   
+  background-image: url("./background.jpg");
+  position:relative;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+   
+}
+
+.sidebar{
+  
+    background-color: #ddeff7;
+   ;
+    
+}
+.my-container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-Direction:row;
+  align-items: center;
+  margin:auto;
+  max-width: 1200px;
+  min-height: 450px;
+  border: 2px solid #ccc;
+  /* background-color: rgb(244, 237, 228); */
+/* background-color: rgb(240, 248, 255), 100%, 97%;*/
+
+  background-image:url("background2.jpg");
+  background-size :"cover";
+
+}
+
+.navflex{
+  display: flex-inline ;
+  max-width:150px ;
+   align-items:'flex-start';
+   flex-Direction:'row';
+   width:"150px";
+   height:'100vh';
+}
+
+.customcard{
+  background-color: rgb(157, 205, 244), 100%, 97%;
+}
